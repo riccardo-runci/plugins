@@ -279,6 +279,12 @@ class GoogleMapsPlugin extends GoogleMapsFlutterPlatform {
     return _events(mapId).whereType<MapLongPressEvent>();
   }
 
+  @override
+  Stream<MapPoiTapEvent> onPoiTap({required int mapId}) {
+    throw UnimplementedError(
+        'onPoiTap() has not been implemented on flutter web now.');
+  }
+
   /// Disposes of the current map. It can't be used afterwards!
   @override
   void dispose({required int mapId}) {
