@@ -12,10 +12,10 @@ interface GoogleMapListener
         GoogleMap.OnCameraMoveStartedListener,
         GoogleMap.OnInfoWindowClickListener,
         GoogleMap.OnMarkerClickListener,
+        GoogleMap.OnPoiClickListener,
         GoogleMap.OnPolygonClickListener,
         GoogleMap.OnPolylineClickListener,
         GoogleMap.OnCircleClickListener,
         GoogleMap.OnMapClickListener,
         GoogleMap.OnMapLongClickListener,
-        GoogleMap.OnMarkerDragListener,
-        GoogleMap.OnPoiClickListener, {}
+        GoogleMap.OnMarkerDragListener {}
